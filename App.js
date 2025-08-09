@@ -10,6 +10,7 @@ function agregarAmigo(){
     }
     listaAmigos.push(inputAmigo.value);
     ulListaAmigos.innerHTML += `<li>${inputAmigo.value} <li>`;
+    inputAmigo.value = ''; 
 };
 
 function sortearAmigo(){
